@@ -1,0 +1,102 @@
+{
+	"$schema": "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+	"name": "haiku",
+	"vars": {
+		"bg0": "#181a25",
+		"bg1": "#1d1f2e",
+		"bg2": "#23253a",
+		"bg3": "#2a2d44",
+		"bg4": "#323552",
+
+		"text": "#d1cec0",
+		"textDim": "#8b887a",
+		"textDim2": "#656758",
+
+		"accent": "#7bc4b4",
+		"gold": "#d4a050",
+		"green": "#8bba7a",
+		"red": "#c4716e",
+		"purple": "#a98ab8",
+		"pink": "#d47a95",
+		"blue": "#7a9fc7",
+		"cyan": "#7bc4c4",
+
+		"syntaxComment": "#585b70",
+		"syntaxKeyword": "#c79ad0",
+		"syntaxFunction": "#7aa2f7",
+		"syntaxVariable": "#d1cec0",
+		"syntaxString": "#9bba7a",
+		"syntaxNumber": "#d4a050",
+		"syntaxType": "#7dc4c4",
+		"syntaxOperator": "#89c4d0",
+		"syntaxPunctuation": "#d1cec0",
+
+		"codeInline": "#d47a95",
+		"codeBlock": "#d4be98",
+		"codeBorder": "#4a4d6a"
+	},
+	"colors": {
+		"accent": "accent",
+		"border": "bg4",
+		"borderAccent": "accent",
+		"borderMuted": "bg3",
+		"success": "accent",
+		"error": "red",
+		"warning": "gold",
+		"muted": "textDim",
+		"dim": "textDim2",
+		"text": "text",
+		"thinkingText": "textDim",
+
+		"selectedBg": "bg2",
+		"userMessageBg": "bg1",
+		"userMessageText": "text",
+		"customMessageBg": "#22223a",
+		"customMessageText": "text",
+		"customMessageLabel": "purple",
+		"toolPendingBg": "bg2",
+		"toolSuccessBg": "#1e2a2e",
+		"toolErrorBg": "#2e2022",
+		"toolTitle": "text",
+		"toolOutput": "textDim",
+
+		"mdHeading": "gold",
+		"mdLink": "accent",
+		"mdLinkUrl": "textDim",
+		"mdCode": "pink",
+		"mdCodeBlock": "codeBlock",
+		"mdCodeBlockBorder": "codeBorder",
+		"mdQuote": "textDim",
+		"mdQuoteBorder": "bg4",
+		"mdHr": "textDim2",
+		"mdListBullet": "accent",
+
+		"toolDiffAdded": "accent",
+		"toolDiffRemoved": "red",
+		"toolDiffContext": "textDim",
+
+		"syntaxComment": "syntaxComment",
+		"syntaxKeyword": "syntaxKeyword",
+		"syntaxFunction": "syntaxFunction",
+		"syntaxVariable": "syntaxVariable",
+		"syntaxString": "syntaxString",
+		"syntaxNumber": "syntaxNumber",
+		"syntaxType": "syntaxType",
+		"syntaxOperator": "syntaxOperator",
+		"syntaxPunctuation": "syntaxPunctuation",
+
+		"thinkingOff": "bg4",
+		"thinkingMinimal": "textDim2",
+		"thinkingLow": "blue",
+		"thinkingMedium": "accent",
+		"thinkingHigh": "purple",
+		"thinkingXhigh": "pink",
+
+		"bashMode": "accent"
+	},
+	"export": {
+		"pageBg": "bg0",
+		"cardBg": "bg1",
+		"infoBg": "#25283e"
+	}
+}
