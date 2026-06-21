@@ -1,6 +1,6 @@
 {
   "name": "pi-haiku",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A warm, minimal theme plus a structured footer and keymap header replacement for Pi coding agent. Bundles the 'haiku' theme with a footer that surfaces location, model, context, tokens, cache, and cost — and a startup keymap that stays readable on any terminal width.",
   "keywords": [
     "pi-package",

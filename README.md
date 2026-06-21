@@ -5,25 +5,27 @@
 
 # pi-haiku
 
-A warm dark theme plus a structured footer and keymap header for [Pi coding agent](https://pi.dev).
+A warm theme and a tidier header and footer for [pi](https://pi.dev).
+
+## What's in it
+
+- **A calm dark theme** — soft teal accent, deep blue-violet background, easy on the eyes during long sessions.
+- **A header at the top of the screen** with the most-used shortcuts, grouped by what they do, so you can find them at a glance.
+- **A footer that quietly shows the useful stuff** — where you are, which model is thinking, how long it's been thinking, how full the conversation is, and how much it has cost so far.
+- **A live timer** that counts up while pi is working, and reports the total when it's done.
+- **A fresh start** — the visible screen is cleared when you launch pi, so you always begin on a clean page. Your scrollback is kept, so the mouse wheel still works.
+
+Everything is on by default when you install it.
+
+## Install
 
 ```bash
 pi install npm:pi-haiku
 ```
 
-## Features
+## Toggle
 
-- **Footer** — shows where you are, which model you're talking to, how long the current task has been running, how much context you've used, and how much the conversation has cost — all in a tight, color-coded layout that adapts to your terminal width.
-
-- **Header** — a clean, grouped keymap at startup that wraps nicely on any terminal size, so you can see all the bindings without scrolling.
-
-- **`haiku` theme** — a warm dark palette with deep blue-violet backgrounds, soft text, and a teal accent. Easy on the eyes for long sessions, and the editor border color hints at the current thinking level.
-
-- **`/haiku` toggle** — turn the footer and header on or off. The theme is a separate setting.
-
-- **Working timer** — counts up while the agent is thinking, then reports the total when it's done.
-
-- **Clean startup** — wipes the visible screen on launch so you start with a blank slate, but keeps the scrollback intact so the mouse wheel still works.
+Type `/haiku` to turn the header and footer on or off. The theme stays as you set it.
 
 ## License
 
